@@ -10,7 +10,7 @@ module.exports = function pleaseUpgradeGit(pkg, opts) {
   var requiredVersion = pkg.engines.git;
   if (!semver.satisfies(gitVersion, requiredVersion)) {
     if (opts.message) {
-      console.error(opts.message(requiredVersion));
+      console.error(opts.message(requiredVersion, gitVersion));
     } else {
       console.error(
         pkg.name +

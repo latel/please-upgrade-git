@@ -38,8 +38,8 @@ You can set custom `exitCode` and `message` function if needed
 ```js
 pleaseUpgradeGit(pkg, {
   exitCode: 0, // Default: 1
-  message: function(requiredVersion) {
-    return 'Oops this program require git ' +  requiredVersion
+  message: function(requiredVersion, currentVersion) {
+    return 'Oops this program require git ' +  requiredVersion + ', you have ' + currentVersion
   }
 })
 ```
