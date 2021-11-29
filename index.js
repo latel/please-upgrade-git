@@ -2,7 +2,7 @@ var semver = require("semver");
 var gitVersion = (require("child_process")
   .execSync("git --version", { encoding: "utf8" })
   .trim()
-  .match(/[\d.]+/) || [])[0];
+  .match(/(\d+\.){2}\d+/) || [])[0];
 
 module.exports = function pleaseUpgradeGit(pkg, opts) {
   opts = opts || {};
