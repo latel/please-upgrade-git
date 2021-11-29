@@ -20,7 +20,7 @@ require('please-upgrade-git')(pkg) // <- Must run BEFORE requiring any other mod
 // ...
 ```
 
-Set in your `package.json` the required Node version
+Set in your `package.json` the required git version
 
 ```js
 {
