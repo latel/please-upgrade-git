@@ -1,4 +1,4 @@
-var semverCompare = require("semver");
+var semver = require("semver");
 var gitVersion = (require("child_process")
   .execSync("git --version", { encoding: "utf8" })
   .trim()
