@@ -1,9 +1,12 @@
 {
   "name": "please-upgrade-git",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Displays a beginner-friendly message telling your user to upgrade their version of git",
+  "repository": {
+    "url": "https://github.com/latel/please-upgrade-git"
+  },
   "bugs": {
-    "url": "https://github.com/latelx/please-upgrade-git/issues"
+    "url": "https://github.com/latel/please-upgrade-git/issues"
   },
   "main": "index.js",
   "scripts": {
