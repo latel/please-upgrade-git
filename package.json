@@ -1,6 +1,6 @@
 {
   "name": "please-upgrade-git",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Displays a beginner-friendly message telling your user to upgrade their version of git",
   "repository": {
     "url": "https://github.com/latel/please-upgrade-git"
